@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Vamos calcular a distância entre dois pontos arbitrários A e B. Para isso, siga os passos a seguir</h1>
+
+        <form>
+            <label for="x">Insira a coordenada do eixo X do ponto A</label>
+            <input type="number" name="x" id="x">
+
+            <label for="y">Insira a coordenada do eixo Y do ponto A</label>
+            <input type="number" name="y" id="y">
+
+            <label for="x_2">Insira a coordenada do eixo X do ponto B</label>
+            <input type="number" name="x_2" id="x_2">
+
+            <label for="y">Insira a coordenada do eixo Y do ponto B</label>
+            <input type="number" name="y_2" id="y_2">
+
+            <h1 for="resultado">A distância entre os pontos A e B é: </h1>
+            <h1 id="resultado">0</h1>
+
+            <input type="button" onclick="result()" value="CALCULAR">
+        </form>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
